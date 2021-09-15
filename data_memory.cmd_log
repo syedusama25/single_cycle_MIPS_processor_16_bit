@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.xst" -ofn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.xst" -ofn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 data_memory.ngc data_memory.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.xst" -ofn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 data_memory.ngc data_memory.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.xst" -ofn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 data_memory.ngc data_memory.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.xst" -ofn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 data_memory.ngc data_memory.ngd  
+xst -intstyle ise -ifn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.xst" -ofn "C:/Xilinx/Projects/single_cycle_MIPS_processor_16_bit/data_memory.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 data_memory.ngc data_memory.ngd  
+vhdtdtfi -lib work {C:/Users/maliha fatima/Downloads/single_cycle_MIPS_processor_16_bit - Copy/single_cycle_MIPS_processor_16_bit - Copy/data_memory.v} -lang verilog -prj single_cycle_MIPS_processor_16_bit -o data_memory.spl -module data_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 data_memory.spl {C:/Users/maliha fatima/Downloads/single_cycle_MIPS_processor_16_bit - Copy/single_cycle_MIPS_processor_16_bit - Copy/data_memory.sym} 
